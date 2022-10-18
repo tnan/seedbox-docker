@@ -1,0 +1,892 @@
+#header {
+		width:100%;
+		height:35px;
+}
+
+#version {
+		width:100%;
+		height:55px;
+}
+
+#whmcs {
+		width:100%;
+		height:100vh;
+}
+
+#notice {
+		width:100%;
+		height:200px;
+}
+
+#netdata {
+		width:100%;
+		height:1265px;
+}
+
+#rebootschedule {
+		width:100%;
+		height:370px;
+}
+
+#torrentclient {
+		width:100%;
+		height:100vh;
+}
+
+#torrentdesktop {
+		width:100%;
+		height:100vh;
+}
+
+#storage {
+		width:100%;
+		height:200px;
+}
+
+#filemanager {
+		width:100%;
+		height:100vh;
+}
+
+#ftpaccess {
+		width:100%;
+		height:100vh;
+}
+
+#panel {
+		width:100%;
+		height:100vh;
+}
+
+#torrentstream {
+		width:100%;
+		height:100vh;
+}
+
+#torrentsimple {
+		width:100%;
+		height:100vh;
+}
+
+#torrentmobile {
+		width:100%;
+		height:100vh;
+}
+
+#torrentsearch {
+		width:100%;
+		height:100vh;
+}
+
+#mediacentere {
+		width:100%;
+		height:100vh;
+}
+
+#mediacenterj {
+		width:100%;
+		height:100vh;
+}
+
+#footer {
+		width:100%;
+		height:35px;
+}
+
+#latest {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#panel_main {
+		width:100%;
+		height:940px;
+		border: none;
+}
+
+#panel_notice {
+		width: 100%;
+		height: 725px;
+		border: none;
+}
+
+#torrentversion {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#te_qbittorrent_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#qbittorrent_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#torrentclient_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#torrentdesktop_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#torrentstream_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#torrentsimple_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#torrentmobile_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#filemanager_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#mediacentere_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#mediacenterj_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#cloudsync_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#script_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#filemanager_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#controlpanel_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#theme_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#rclone_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+#script_version {
+		width:100%;
+		height:35px;
+		border: none;
+}
+
+.textbox {
+    height: 100px; /*childrens it's all absolute position, so must set height*/
+    position: relative;
+}
+.textbox div{
+    display: inline-block;
+    position: absolute;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+.button-qbittorrent-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-qbittorrent-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentclient-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentdesktop-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentdesktop-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentsimple-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentsimple-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentmobile-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentmobile-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-filemanager-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-filemanager-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-mediacentere-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-mediacentere-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-mediacenterj-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-mediacenterj-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentstream-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentstream-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-controlpanel-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-controlpanel-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-rclone-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-rclone-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-cloudsync-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-cloudsync-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-script-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-script-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-theme-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-theme-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentdownloader-beta
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-torrentdownloader-stable
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-te-qbittorrent-beta
+{
+        width: 50%;
+}
+
+.button-te-qbittorrent-stable
+{
+        width: 50%;
+}
+
+.button-torrentclient-start
+{
+        width: 50%;
+}
+
+.button-torrentclient-stop
+{
+        width: 50%;
+}
+
+.button-torrentdesktop-start
+{
+        width: 50%;
+}
+
+.button-torrentdesktop-stop
+{
+        width: 50%;
+}
+
+.button-torrentsimple-start
+{
+        width: 50%;
+}
+
+.button-torrentsimple-stop
+{
+        width: 50%;
+}
+
+.button-torrentmobile-start
+{
+        width: 50%;
+}
+
+.button-torrentmobile-stop
+{
+        width: 50%;
+}
+
+.button-torrentclient-stop
+{
+        width: 50%;
+}
+
+.button-torrentdesktop-stop
+{
+        width: 50%;
+}
+
+.button-servermonitor-start
+{
+        width: 50%;
+}
+
+.button-servermonitor-stop
+{
+        width: 50%;
+}
+
+.button-torrentstream-start
+{
+        width: 50%;
+}
+
+.button-torrentstream-stop
+{
+        width: 50%;
+}
+
+.button-mediacentere-start
+{
+        width: 50%;
+}
+
+.button-mediacentere-stop
+{
+        width: 50%;
+}
+
+.button-mediacenterj-start
+{
+        width: 50%;
+}
+
+.button-mediacenterj-stop
+{
+        width: 50%;
+}
+
+.button-panel-deleteallfiles
+{
+        width: 50%;
+}
+
+.button-panel-grantpermissionallfiles
+{
+        width: 50%;
+}
+
+.button-server-clearlog
+{
+        width: 33.33%;
+}
+
+.button-server-reboot
+{
+        width: 33.33%;
+}
+
+.button-server-reboot-schedule
+{
+        width: 33.33%;
+}
+
+.button-googledrive-upload
+{
+        width: 33.33%;
+}
+
+.button-googledrive-stop
+{
+        width: 33.33%;
+}
+
+.button-googledrive-status
+{
+        width: 33.33%;
+}
+
+.button-onedrive-upload
+{
+        width: 33.33%;
+}
+
+.button-onedrive-stop
+{
+        width: 33.33%;
+}
+
+.button-onedrive-status
+{
+        width: 33.33%;
+}
+
+.button-cloudsync-link
+{
+        width: 100%;
+}
+
+.button-qbittorrent-beta-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-qbittorrent-stable-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-filemanager-beta-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-filemanager-stable-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-controlpanel-beta-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-controlpanel-stable-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-te-qbittorrent-beta-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-te-qbittorrent-stable-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-server-reboot-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-server-clearlog-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-googledrive-upload-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-googledrive-stop-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-googledrive-status-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-onedrive-upload-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-onedrive-stop-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-onedrive-status-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-rclone-beta-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-rclone-stable-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-script-beta-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.button-script-stable-off
+{
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #999999;
+        background-color: #ffffff;
+        width: 50%;
+}
+
+.whmcs_button
+{
+        width: 100%;
+}
+
+.notice_button
+{
+        width: 100%;
+}
+
+.torrentclient_button
+{
+        width: 100%;
+}
+
+.torrentdesktop_button
+{
+        width: 100%;
+}
+
+.storage_button
+{
+        width: 100%;
+}
+
+.filemanager_button
+{
+        width: 100%;
+}
+
+.controlpanel_button
+{
+        width: 100%;
+}
+
+.torrentstream_button
+{
+        width: 100%;
+}
+
+.mediacenter_button
+{
+        width: 100%;
+}
+
+.ftpaccess_button
+{
+        width: 100%;
+}
+
+.knowledgebase_button
+{
+        width: 100%;
+}
