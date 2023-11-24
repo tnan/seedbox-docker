@@ -23,8 +23,6 @@ mkdir -p /var/www/html/seedbox/torrent-downloader/downloads/
 mkdir -p /var/www/html/seedbox/torrent-downloader/torrents/
 
 chown -R torrent-downloader:torrent-downloader /home/torrent-downloader/
-chmod 755 /home/torrent-downloader/qbittorrent-nox
-
 chown -R www-data:www-data /var/www/html/
 chmod -R 777 /var/www/html/
 
