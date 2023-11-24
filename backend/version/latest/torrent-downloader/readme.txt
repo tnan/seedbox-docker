@@ -1,4 +1,4 @@
-#Torrent Downloader Setup
+#Torrent-Downloader Setup
 ##Install Requirement
 DEBIAN_FRONTEND=noninteractive apt install software-properties-common -y
 add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y
@@ -19,8 +19,8 @@ printf 'A\n' | unzip -q /home/seedbox/install/torrent-downloader/torrent-downloa
 ##Download Torrent-Downloader
 
 ##Configuration
-mkdir -p /var/www/html/seedbox/torrent-downloader/downloads/
-mkdir -p /var/www/html/seedbox/torrent-downloader/torrents/
+mkdir -p /var/www/html/seedbox/files/downloads/
+mkdir -p /var/www/html/seedbox/files/torrents/
 
 chown -R torrent-downloader:torrent-downloader /home/torrent-downloader/
 chown -R www-data:www-data /var/www/html/
